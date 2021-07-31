@@ -1,0 +1,33 @@
+.parent {
+    border: 1px solid red;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+.child1 {
+    background-color: gold;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 0;
+    top: 100%;
+}
+
+.child2 {
+    background-color: gold;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 100%;
+    top: 0;
+}
+
+.child3 {
+    background-color: gold;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 100%;
+    top: 100%;
+}
